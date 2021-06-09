@@ -1,13 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.searchBox {
+  width: 100%;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchBar {
+  width: 30%;
+  min-width: 270px;
+  height: 30px;
+  padding: 0 10px;
+  border: none;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.searchBtn {
+  width: 40px;
+  height: 30px;
+  border: none;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  cursor: pointer;
+}
+
+.cardsBox {
+  width: 70%;
+  min-width: 310px;
+  height: 800px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 260px;
+  height: 400px;
+  margin-top: 30px;
+}
+
+.cardPic {
+  width: 100%;
+  height: 160px;
+}
+
+.cardPic img {
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  object-fit: cover;
+}
+
+.cardInfo {
+  width: 100%;
+  height: 240px;
+  /*   border-left: 10px solid rgba(0, 0, 0, 0.83);
+  border-right: 10px solid rgba(0, 0, 0, 0.83);
+  border-bottom: 10px solid rgba(0, 0, 0, 0.83); */
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.9);
+  text-align: center;
+  font-size: 15px;
+}
+
+.title {
+  height: 22px;
+  font-weight: bold;
+  line-height: 28px;
+  color: white;
+}
+
+.text {
+  height: 27px;
+  line-height: 27px;
+  color: white;
+}
+
+.quote {
+  height: 62px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  line-height: 25px;
+  border-bottom: none;
 }
