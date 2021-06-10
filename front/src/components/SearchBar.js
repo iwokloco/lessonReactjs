@@ -1,6 +1,6 @@
 import React from "react";
 
-const SearchBar = () => {
+const SearchBar = (props) => {
   return (
     <>
       <input
@@ -9,6 +9,7 @@ const SearchBar = () => {
         name="seacrh"
         placeholder="Search..."
         autoComplete="off"
+        onKeyUp={(e) => props.inputSearch(e.target.value)}
       />
     </>
   );

@@ -1,0 +1,79 @@
+[
+  {
+    "name": "Obi-Wan Kenobi",
+    "films": ["I", "II", "III", "IV", "V", "VI"],
+    "side": "Light",
+    "quote": "Don't try it! I have the higher ground!",
+    "img": "/assetsPublic/obi-wan.jpg"
+  },
+  {
+    "name": "Darth Sidious (Palpatine)",
+    "films": ["I", "II", "III", "IV", "V", "VI"],
+    "side": "Dark",
+    "quote": "Good, good, let the hate flow through you.",
+    "img": "/assetsPublic/sidious.jpg"
+  },
+  {
+    "name": "Mace Windu",
+    "films": ["I", "II", "III"],
+    "side": "Light",
+    "quote": "You are on this council but we do not grant you the rank of Master.",
+    "img": "/assetsPublic/mace-windu.jpg"
+  },
+  {
+    "name": "Darh Vader (Anakin Skywalker)",
+    "films": ["III", "IV", "V", "VI"],
+    "side": "Dark",
+    "quote": "NoooOoOoOoOoo!!",
+    "img": "/assetsPublic/vader.jpg"
+  },
+  {
+    "name": "Luke Skywalker",
+    "films": ["III", "IV", "V", "VI"],
+    "side": "Light",
+    "quote": "I am a Jedi like my father before me.",
+    "img": "/assetsPublic/luke.jpg"
+  },
+  {
+    "name": "Leia Organa",
+    "films": ["III", "IV", "V", "VI"],
+    "side": "Light",
+    "quote": "Aren't you a little short for a stormtrooper?",
+    "img": "/assetsPublic/leia.jpg"
+  },
+  {
+    "name": "Jar Jar Binks",
+    "films": ["I", "II", "III"],
+    "side": "Dark",
+    "quote": "I 'spake'.",
+    "img": "/assetsPublic/jar-jar.jpg"
+  },
+  {
+    "name": "Qui-Gon Jinn",
+    "films": ["I"],
+    "side": "Light",
+    "quote": "The ability to speak does not make you intelligent.",
+    "img": "/assetsPublic/qui-gon.jpg"
+  },
+  {
+    "name": "Anakin Skywalker (Darth Vader)",
+    "films": ["I", "II", "III"],
+    "side": "Light / Dark",
+    "quote": "I don't like sand.",
+    "img": "/assetsPublic/anakin.jpg"
+  },
+  {
+    "name": "Darth Maul",
+    "films": ["I"],
+    "side": "Dark",
+    "quote": "At last we will have revenge.",
+    "img": "/assetsPublic/maul.jpg"
+  },
+  {
+    "name": "Palpatine (Darth Sidious)",
+    "films": ["I", "II", "III"],
+    "side": "Dark",
+    "quote": "I am the senate.",
+    "img": "/assetsPublic/palpatine.jpg"
+  }
+]

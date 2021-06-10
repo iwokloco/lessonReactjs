@@ -1,25 +1,34 @@
 import React from "react";
 
 const Card = (props) => {
-  const { name, films, side, quote } = props;
+  const { name, films, side, quote, img } = props;
   return (
-    <div className="card">
+    <div className={side === "Dark" ? "card dark" : "card light"}>
       <div className="cardPic">
-        <img src="/assets/vader.jpg" alt="Anakin/Vader" />
+        <img src={img} alt={name} />
       </div>
       <div className="cardInfo">
-        <p className="title">Name</p>
-        <p className="text">{name}</p>
+        <p className="text">
+          <b>Name: </b>
+          {name}
+        </p>
         <hr />
-        <p className="title">Films</p>
-        <p className="text">Episode: {films}</p>
+        <p className="text">
+          <b>FIlms: </b>Episode: {films.map((film) => `${film} `)}
+        </p>
         <hr />
-        <p className="title">Side</p>
-        <p className="text">{side}</p>
+        <p className="text">
+          <b>Side: </b>
+          {side}
+        </p>
         <hr />
-        <p className="title">Quote</p>
+        <p className="text">
+          <b>Quote:</b>
+        </p>
         <p className="text quote">
-          <q>{quote}</q>
+          <q>
+            <i>{quote}</i>
+          </q>
         </p>
       </div>
     </div>

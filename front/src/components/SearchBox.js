@@ -3,10 +3,11 @@ import SearchBar from "./SearchBar";
 import SearchBtn from "./SearchBtn";
 
 const SearchBox = (props) => {
+  const { inputSearch, changeFilter } = props;
   return (
     <div className="searchBox">
-      <SearchBar />
-      <SearchBtn changeUrl={props.changeUrl} />
+      <SearchBar inputSearch={inputSearch} />
+      <SearchBtn changeFilter={changeFilter} />
     </div>
   );
 };
