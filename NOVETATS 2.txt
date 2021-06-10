@@ -1,0 +1,10 @@
+Aquest cop ha estat bastant fàcil fer-ho perquè més o menys vaig pillant el truc de l'estructura de React i com s'ha de relacionar tot.
+
+Tot i així, encara m'ha costat una mica el tema de comunicació entre components i segur que la funcionalitat de l'App es pot millorar o directament fer d'una altra manera.
+
+Però de moment tot funciona bé. Al principi et surten tots els personatges i quan busques et surten els que tinguin coincidències en el nom amb el que hagis posat.
+p.e: Si posen "an", et sortiran tots els que tinguin "an" en alguna part del nom. Si posen "Skywalker" et sortiran tots els que tinguin "Skywalker" en el nom. Pots fer proves.
+
+I les targetes estan fetes de manera que siguin fàcilment ampliable rotllo que em demanis que enllaci links de imbd de les pelis quan fas click a I, II, III, etc. o qualsevol cosa que se t'acudeixi.
+
+Ja em diràs com ho veus!
