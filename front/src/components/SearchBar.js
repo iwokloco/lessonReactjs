@@ -1,6 +1,16 @@
 import React from "react";
 
 const SearchBar = (props) => {
+  const { inputSearch, changeFilter } = props;
+  const handleKeyUp = (e) => {
+    if (e.keyCode === 13) {
+      inputSearch(e.target.value);
+      changeFilter();
+    } else {
+      inputSearch(e.target.value);
+    }
+  };
+
   return (
     <>
       <input
@@ -9,7 +19,7 @@ const SearchBar = (props) => {
         name="seacrh"
         placeholder="Search..."
         autoComplete="off"
-        onKeyUp={(e) => props.inputSearch(e.target.value)}
+        onKeyUp={(e) => handleKeyUp(e)}
       />
     </>
   );

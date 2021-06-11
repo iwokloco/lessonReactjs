@@ -6,7 +6,7 @@ const SearchBox = (props) => {
   const { inputSearch, changeFilter } = props;
   return (
     <div className="searchBox">
-      <SearchBar inputSearch={inputSearch} />
+      <SearchBar inputSearch={inputSearch} changeFilter={changeFilter} />
       <SearchBtn changeFilter={changeFilter} />
     </div>
   );
