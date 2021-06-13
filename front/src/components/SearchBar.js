@@ -4,7 +4,6 @@ const SearchBar = (props) => {
   const { inputSearch, changeFilter } = props;
   const handleKeyUp = (e) => {
     if (e.keyCode === 13) {
-      inputSearch(e.target.value);
       changeFilter();
     } else {
       inputSearch(e.target.value);

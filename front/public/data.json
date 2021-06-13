@@ -45,7 +45,7 @@
     "name": "Jar Jar Binks",
     "films": ["I", "II", "III"],
     "side": "Dark",
-    "quote": "I 'spake'.",
+    "quote": "Mesa called Jar Jar Binks, mesa your humble servant!",
     "img": "/assetsPublic/jar-jar.jpg"
   },
   {
@@ -75,5 +75,26 @@
     "side": "Dark",
     "quote": "I am the senate.",
     "img": "/assetsPublic/palpatine.jpg"
+  },
+  {
+    "name": "Chewbacca",
+    "films": ["III", "IV", "V", "VI"],
+    "side": "Light",
+    "quote": "WWWWGGHHRW!!",
+    "img": "/assetsPublic/chewbacca.jpg"
+  },
+  {
+    "name": "Han Solo",
+    "films": ["IV", "V", "VI"],
+    "side": "Light",
+    "quote": "It's not wise to upset a Wookiee.",
+    "img": "/assetsPublic/han-solo.jpg"
+  },
+  {
+    "name": "Yoda",
+    "films": ["I", "II", "III", "IV", "V", "VI"],
+    "side": "Light",
+    "quote": "Try not. Do or do not. Ther is no try.",
+    "img": "/assetsPublic/yoda.jpg"
   }
 ]

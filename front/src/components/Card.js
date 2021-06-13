@@ -14,7 +14,12 @@ const Card = (props) => {
         </p>
         <hr />
         <p className="text">
-          <b>FIlms: </b>Episode: {films.map((film) => `${film} `)}
+          {films.length > 1 ? (
+            <b>Star Wars Episodes: </b>
+          ) : (
+            <b>Star Wars Episode: </b>
+          )}
+          {films.map((film) => `${film} `)}
         </p>
         <hr />
         <p className="text">
