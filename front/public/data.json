@@ -21,7 +21,7 @@
     "img": "/assetsPublic/mace-windu.jpg"
   },
   {
-    "name": "Darh Vader (Anakin Skywalker)",
+    "name": "Darth Vader (Anakin Skywalker)",
     "films": ["III", "IV", "V", "VI"],
     "side": "Dark",
     "quote": "NoooOoOoOoOoo!!",
